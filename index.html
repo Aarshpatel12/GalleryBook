@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Book Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
@@ -16,13 +17,21 @@
         </div>
     </nav>
     
-    <div class="slider" id="home">Welcome to Our Gallery Book</div>
+    <div class="slider" id="home">
+        <span class="animated-text">Welcome to Our Gallery Book</span>
+    </div>
+    
     
     <div class="section" id="about">
         <div class="text-container">
-            <h2>About Us</h2>
-            <p>Welcome to our gallery book, a place where stories come alive through visuals and creativity. Our collection showcases the finest illustrations and photography from talented artists worldwide.</p>
+            <h2 class="typing-text">About Us</h2>
+            <p class="fade-in-text">
+                Welcome to <span class="highlight">Our Gallery Book</span>, a place where <span class="bold">stories come alive</span> 
+                through <span class="italic">visuals and creativity</span>. Explore a collection showcasing the <span class="glow">finest illustrations</span> 
+                and <span class="glow">photography</span> from talented artists worldwide.
+            </p>
         </div>
+        
         <div class="image-container">
             <img src="https://www.freeiconspng.com/uploads/about-us-icon-22.png" alt="About Image">
         </div>
@@ -35,8 +44,10 @@
     <div class="section" id="contact">
         <div class="text-container">
             <h2>Contact Us</h2>
-            <p>Have any questions? Feel free to reach out. We’d love to hear from you!</p>
+            <p class="typing-text">Have any questions? Feel free to reach out. We’d love to hear from you!</p>
         </div>
+    </div>
+    
         <div class="image-container">
             <img src="https://static.vecteezy.com/system/resources/thumbnails/027/244/724/small/contact-us-or-the-customer-support-hotline-people-connect-businessman-touching-virtual-icons-doing-to-customer-service-call-center-free-png.png" alt="Contact Image">
         </div>
@@ -47,6 +58,6 @@
     </footer>
     
     
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
